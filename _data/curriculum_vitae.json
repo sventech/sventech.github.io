@@ -1,0 +1,199 @@
+{
+    "name": "Sven Pedersen",
+    "title": "Experienced Software Engineer",
+    "summary": "Dynamic and result-driven Software Leader with extensive experience in developing robust software solutions across various industries and cloud-based technologies. Excel in orchestrating construction and maintenance of complex microservices and geospatial databases to optimize performance and reliability. Adept at leveraging tools to empower teams and enhance system security and deployment efficiency. Passion for data engineering and proven track record of driving improvements that enable teammates to excel and projects to succeed.",
+    "strengths": [
+        "Strategic Planning",
+        "Cloud Infrastructure",
+        "Data Management",
+        "Quality Assurance",
+        "Technical Project Management",
+        "Application Development",
+        "Mentoring & Coaching",
+        "Root Cause Analysis",
+        "System Analysis & Testing",
+        "Stakeholder Engagement",
+        "Agile & Scrum Methodologies"
+    ],
+    "mobile_phone": "+1-510-239-7587",
+    "email": "sven.pedersen@gmail.com",
+    "linkedin_user": "sventechie",
+    "github_user": "sventech",
+    "stackoverflow_user": "151261/sventechie",
+    "skill_lists": {
+        "Programming Languages": {
+            "Python": "85%",
+            "Go": "75%",
+            "Ruby": "65%",
+            "JavaScript": "75%",
+            "Java": "85%",
+            "PHP": "75%",
+            "SQL": "95%",
+            "Clojure": "75%",
+            "Objective-C": "65%",
+            "ANSI C/C++": "55%"
+        },
+        "Databases": {
+            "PostgreSQL / MySQL": "85%",
+            "Oracle / IBM DB2": "65%",
+            "MongoDB / Redis": "55%",
+            "Microsoft SQL Server": "75%",
+            "Elasticsearch": "65%",
+            "DynamoDB": "75%"
+        },
+        "DevOps &amp; Cloud Services": {
+            "Docker / Kubernetes": "85%",
+            "Terraform / Ansible": "65%",
+            "AWS": "85%",
+            "Google Cloud (GCP)": "95%",
+            "Rackspace / OpenStack": "65%"
+        },
+        "Web Technologies": {
+            "HTML / CSS": "85%",
+            "JavaScript": "75%",
+            "TypeScript": "45%",
+            "GraphQL": "75%",
+            "React": "65%",
+            "Node.js": "75%",
+            "Django / FastAPI": "85%",
+            "Ruby on Rails": "65%"
+        },
+        "Data Management &amp; Visualization": [
+            "Jupyter Notebooks",
+            "Pandas / NumPy",
+            "Matplotlib / Seaborn",
+            "Jasper Reports",
+            "Looker",
+            "Highcharts / Highmaps"
+        ],
+        "Other Technologies": [
+            "Linux",
+            "Git",
+            "Postman",
+            "Swagger",
+            "CFengine",
+            "Jira",
+            "Confluence",
+            "Jenkins",
+            "XSLT / XML",
+            "Perl"
+        ]
+    },
+    "education": [
+        {
+            "institution": "MIT Professional Education",
+            "institution_url": "https://professional-education-gl.mit.edu/mit-applied-data-science-course",
+            "institution_title": "MIT PE - ADSP",
+            "area": "Applied Data Science",
+            "study_type": "Cert.",
+            "start_date": "Mar 2024",
+            "end_date": "Jun 2024",
+            "graduation_year": "2024"
+        },
+        {
+            "institution": "Dallas International University",
+            "institution_url": "https://www.diu.edu",
+            "institution_title": "DIU / GIAL",
+            "area": "Applied Linguistics",
+            "study_type": "Cert.",
+            "start_date": "Jan 2010",
+            "end_date": "Dec 2010",
+            "graduation_year": "2011"
+        },
+        {
+            "institution": "SUNY Empire State University",
+            "institution_url": "http://sunyempire.edu",
+            "institution_title": "SUNY ESC",
+            "area": "Info. Science &amp; Design",
+            "study_type": "BSc",
+            "start_date": "Aug 2002",
+            "end_date": "May 2010",
+            "graduation_year": "2010"
+        }
+    ],
+    "experience": [
+        {
+            "company": "Airbus UTM",
+            "position": "Senior Software Engineer",
+            "website": "https://acubed.airbus.com/projects/airbus-utm/",
+            "location": "Sunnyvale, CA",
+            "start_date": "Dec 2018",
+            "end_date": "Mar 2024",
+            "summary": "Designed complex software systems for airspace management using Python, Go, and JavaScript/TypeScript. Architected scalable microservices to handle high-volume data processing. Optimized cloud-based infrastructure on GCP/Azure for improved performance and reliability. Developed geospatial database systems using PostgreSQL/PostGIS for efficient data retrieval and analysis. Collaborated with cross-functional teams to define software solutions. Wrote DevOps platform code using Kubernetes, Terraform, and cloud services in a secure environment.",
+            "technologies": [
+                "Python",
+                "Go",
+                "JavaScript / TypeScript",
+                "PostgreSQL / PostGIS",
+                "Google Cloud Platform",
+                "Azure",
+                "Kubernetes",
+                "Terraform",
+                "Docker"
+            ],
+            "highlights": [
+                "Ensured high reliability under load for airspace-authorization microservices.",
+                "Optimized config-driven ETL pipeline using simple cloud services.",
+                "Enabled less experienced developers to easily and safely deploy apps through DevOps platform code.",
+                "Improved configuration-driven geospatial database system for map tiles and airspace authorization services.",
+                "Reduced system downtime through implementation of robust error handling and recovery mechanisms."
+            ]
+        },
+        {
+            "company": "Acubed by Airbus / Altiscope project",
+            "position": "Senior Software Engineer",
+            "website": "https://www.airbus.com/en/newsroom/news/2017-11-altiscope-building-blueprints-for-the-sky",
+            "location": "Sunnyvale, CA",
+            "start_date": "Aug 2017",
+            "end_date": "December 2018",
+            "summary": "Developed advanced airspace authorization systems for drone operations using Python and JavaScript. Integrated complex geospatial data into user-friendly interfaces using PostgreSQL. Created sophisticated simulation models for air traffic safety analysis. Implemented secure APIs for data exchange with external systems. Optimized algorithms for real-time airspace monitoring and management using SQL and Redis. Deployed solutions on Google Cloud Platform using Docker and Ansible.",
+            "technologies": [
+                "Python / Django",
+                "JavaScript",
+                "PostgreSQL / PostGIS",
+                "Google Cloud Platform",
+                "Docker",
+                "Ansible"
+            ],
+            "hightlights": [
+                "Implemented airspace authorization system for FAA LAANC program.",
+                "Provided mapping and safety boundaries for drone pilots by ingesting geospatial data.",
+                "Modeled air traffic safety measures through simulation and analytics systems.",
+                "Increased system accuracy through advanced algorithm optimization.",
+                "Streamlined development process, resulting in faster time-to-market."
+            ]
+        },
+        {
+            "company": "Magic Instruments",
+            "position": "Senior Software Engineer",
+            "website": "https://www.airbus.com/en/newsroom/news/2017-11-altiscope-building-blueprints-for-the-sky",
+            "location": "San Francisco, CA",
+            "start_date": "Sep 2016",
+            "end_date": "October 2017",
+            "summary": "Architected scalable data pipelines for music content processing using Python and AWS services. Refactored mobile applications to enhance user experience using Objective C and React. Developed firmware for embedded systems in musical instruments using ANSI C. Implemented pattern recognition for music data. Optimized backend systems using Python on AWS SNS and Lambda.",
+            "technologies": [
+                "Python / AWS Lambda",
+                "JavaScript / React",
+                "AWS SQS / SNS",
+                "Ansible",
+                "ANSI C",
+                "iOS / Objective-C"
+            ],
+            "hightlights": [
+                "Created fully scalable distributed system for music lyric/chord data pipeline.",
+                "Improved UI/UX behavior in mobile app and prototyped app in React Native.",
+                "Implemented metadata enrichment, pattern matching, and cleanup of crowdsourced & curated content.",
+                "Developed firmware in C for STM32 ARM embedded MCU.",
+                "Reduced app crash rate through comprehensive error handling.",
+                "Increased user engagement with new interactive features."
+            ]
+        }
+    ],
+    "awards": {},
+    "languages": {
+        "English": "Native",
+        "Spanish": "Limited Working",
+        "French": "Limited Working"
+    },
+    "interests": [ "Djembe Drumming", "Cycling", "Hiking" ]
+}
