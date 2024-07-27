@@ -155,7 +155,7 @@
                 "Docker",
                 "Ansible"
             ],
-            "hightlights": [
+            "highlights": [
                 "Implemented airspace authorization system for FAA LAANC program.",
                 "Provided mapping and safety boundaries for drone pilots by ingesting geospatial data.",
                 "Modeled air traffic safety measures through simulation and analytics systems.",
@@ -166,7 +166,7 @@
         {
             "company": "Magic Instruments",
             "position": "Senior Software Engineer",
-            "website": "https://www.airbus.com/en/newsroom/news/2017-11-altiscope-building-blueprints-for-the-sky",
+            "website": "",
             "location": "San Francisco, CA",
             "start_date": "Sep 2016",
             "end_date": "October 2017",
@@ -179,13 +179,36 @@
                 "ANSI C",
                 "iOS / Objective-C"
             ],
-            "hightlights": [
+            "highlights": [
                 "Created fully scalable distributed system for music lyric/chord data pipeline.",
                 "Improved UI/UX behavior in mobile app and prototyped app in React Native.",
                 "Implemented metadata enrichment, pattern matching, and cleanup of crowdsourced & curated content.",
                 "Developed firmware in C for STM32 ARM embedded MCU.",
                 "Reduced app crash rate through comprehensive error handling.",
                 "Increased user engagement with new interactive features."
+            ]
+        },
+        {
+            "company": "Ra Power Management",
+            "position": "Senior Software Developer",
+            "website": "",
+            "location": "Oakland, CA",
+            "start_date": "Feb 2016",
+            "end_date": "Aug 2016",
+            "summary": "Developed predictive analytics models for solar project management using Ruby on Rails. Created complex data visualizations for financial reporting with Highcharts/Highmaps. Optimized database queries for improved system performance in PostgreSQL. Implemented secure user authentication and authorization systems. Integrated third-party APIs for comprehensive data analysis. Practiced pair programming for code quality improvement.",
+            "technologies": [
+                "Ruby on Rails",
+                "JavaScript",
+                "PostgreSQL",
+                "Highcharts / Highmaps",
+                "Continuous Integration",
+                "Clojure"
+            ],
+            "highlights": [
+                "Improved core prediction calculations performance by 10x+ in web-based software platform for solar project financial life-cycle management.",
+                "Implemented complex visualizations using Highcharts/Highmaps for solar asset valuation & reporting.",
+                "Increased data processing speed through query optimization.",
+                "Reduced report generation time with new caching mechanisms."
             ]
         }
     ],
