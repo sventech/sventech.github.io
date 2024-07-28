@@ -317,7 +317,7 @@
             "highlights": []
         }
     ],
-    "awards": {"Phi Theta Kappa (ΦΘΚ)"},
+    "awards": { "Phi Theta Kappa (ΦΘΚ)": "Honor society" },
     "languages": {
         "English": "Native",
         "Spanish": "Limited Working",
@@ -349,8 +349,35 @@
             "position": "Project Manager",
             "company": "Jester Communications",
             "relationship": "Manager",
-            "text": "I had the pleasure of working with Sven as a part of the development team during my tenure at Jester Communications. His attention to detail was focused and well thought-out for the back-end projects related to app design and database integration. Sven's drive to do the right thing and get to the root of a software issue was welcoming. I appreciated Sven's honesty when it came to the complexity of software bugs, and his determination to provide a permanent solution versus a quick fix. Sven will be a great asset to any team looking to enhance their back-end/database application team and/or iOS development team.",
+            "text": "I had the pleasure of working with Sven as a part of the development team during my tenure at Jester Communications. His attention to detail was focused and well thought-out for the back-end projects related to app design and database integration. Sven's drive to do the right thing and get to the root of a software issue was welcome. I appreciated Sven's honesty when it came to the complexity of software bugs, and his determination to provide a permanent solution versus a quick fix. Sven will be a great asset to any team looking to enhance their back-end/database application team and/or iOS development team.",
             "date": "Oct 7, 2015"
+        },
+        {
+            "author": "Delwar Hossain",
+            "author_link": "https://www.linkedin.com/in/delwar-h-50660b28",
+            "position": "QA Team Lead",
+            "company": "DealerTrack | eCarList",
+            "relationship": "Co-worker",
+            "text": "Sven is a very talented software engineer. He is very knowledgeable in many areas of software development and has a great work ethic. He is a great team player and is always willing to help out his fellow team members. I would highly recommend Sven for any software development position.",
+            "date": "July 15, 2013"
+        },
+        {
+            "author": "Thomas Kahnoski",
+            "author_link": "https://www.linkedin.com/in/thomas-kahnoski-1226596",
+            "position": "Lead Software Engineer",
+            "company": "DealerTrack | eCarList",
+            "relationship": "Manager",
+            "text": "Sven is a smart employee possessing great analytic skills to dissect and implement business requirements. He has a great attention to detail and can very quickly pick up new technologies. <br/>Sven helped the team do more. He was always willing dig in and help out other team members to troubleshoot and solve issues. He was also very mindful of other teams and kept up to date on the latest on goings at the company.",
+            "date": "June 21, 2013"
+        },
+        {
+            "author": "Gregory Sharp",
+            "author_link": "https://www.linkedin.com/in/gregoryjsharp",
+            "position": "Senior Software Engineer",
+            "company": "RP Solutions Inc.",
+            "relationship": "Senior Co-worker",
+            "text": "Sven is a thorough, dedicated, detail-oriented problem solver. He was a committed team player at RP Solutions, with an optimistic, positive approach to his work.",
+            "date": "March 26, 2011"
         }
     ]
 }
