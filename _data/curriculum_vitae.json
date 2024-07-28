@@ -15,8 +15,9 @@
         "Stakeholder Engagement",
         "Agile & Scrum Methodologies"
     ],
-    "mobile_phone": "+1-510-239-7587",
+    "phone": "+1-510-239-7587",
     "email": "sven.pedersen@gmail.com",
+    "location": "San Francisco Bay Area, CA",
     "linkedin_user": "sventechie",
     "github_user": "sventech",
     "stackoverflow_user": "151261/sventechie",
@@ -31,7 +32,7 @@
             "SQL": "95%",
             "Clojure": "75%",
             "Objective-C": "65%",
-            "ANSI C/C++": "55%"
+            "ANSI C / C++": "55%"
         },
         "Databases": {
             "PostgreSQL / MySQL": "85%",
@@ -92,7 +93,7 @@
         },
         {
             "institution": "Dallas International University",
-            "institution_url": "https://www.diu.edu",
+            "institution_url": "https://www.diu.edu/gial/certificate-applied-linguistics/",
             "institution_title": "DIU / GIAL",
             "area": "Applied Linguistics",
             "study_type": "Cert.",
@@ -125,7 +126,7 @@
                 "Go",
                 "JavaScript / TypeScript",
                 "PostgreSQL / PostGIS",
-                "Google Cloud Platform",
+                "Google Cloud (GCP)",
                 "Azure",
                 "Kubernetes",
                 "Terraform",
@@ -146,13 +147,14 @@
             "location": "Sunnyvale, CA",
             "start_date": "Aug 2017",
             "end_date": "December 2018",
-            "summary": "Developed advanced airspace authorization systems for drone operations using Python and JavaScript. Integrated complex geospatial data into user-friendly interfaces using PostgreSQL. Created sophisticated simulation models for air traffic safety analysis. Implemented secure APIs for data exchange with external systems. Optimized algorithms for real-time airspace monitoring and management using SQL and Redis. Deployed solutions on Google Cloud Platform using Docker and Ansible.",
+            "summary": "Developed advanced airspace authorization systems for drone operations using Python and JavaScript. Integrated complex geospatial data into user-friendly interfaces using PostgreSQL. Created sophisticated simulation models for air traffic safety analysis. Implemented secure APIs for data exchange with external systems. Optimized algorithms for real-time airspace alerts and management using SQL and Redis. Deployed solutions on Google Cloud (GCP) using Docker and Ansible.",
             "technologies": [
                 "Python / Django",
                 "JavaScript",
                 "PostgreSQL / PostGIS",
-                "Google Cloud Platform",
+                "Google Cloud (GCP)",
                 "Docker",
+                "Redis",
                 "Ansible"
             ],
             "highlights": [
@@ -191,7 +193,7 @@
         {
             "company": "Ra Power Management",
             "position": "Senior Software Developer",
-            "website": "",
+            "website": "https://www.cleanenergyfinanceforum.com/2016/07/31/rpm-software-improves-solar-asset-management",
             "location": "Oakland, CA",
             "start_date": "Feb 2016",
             "end_date": "Aug 2016",
@@ -206,13 +208,116 @@
             ],
             "highlights": [
                 "Improved core prediction calculations performance by 10x+ in web-based software platform for solar project financial life-cycle management.",
-                "Implemented complex visualizations using Highcharts/Highmaps for solar asset valuation & reporting.",
+                "Implemented complex visualizations using Highcharts / Highmaps for solar asset valuation & reporting.",
                 "Increased data processing speed through query optimization.",
-                "Reduced report generation time with new caching mechanisms."
+                "Reduced report generation time with new parallelization techniques."
             ]
+        },
+        {
+            "company": "GroupHub",
+            "position": "Senior Software Engineer",
+            "website": "",
+            "location": "San Francisco, CA (remote)",
+            "start_date": "Oct 2015",
+            "end_date": "Dec 2015",
+            "summary": "Designed RESTful APIs for health insurance applications using Ruby on Rails. Restructured deployment pipelines using AWS ElasticBeanstalk. Developed responsive web interfaces for complex data entry with JavaScript. Implemented robust error handling and logging systems.",
+            "technologies": [
+                "Ruby on Rails",
+                "AWS ElasticBeanstalk",
+                "JavaScript"
+            ],
+            "highlights": [
+                "Documented health insurance applicant API.",
+                "Replaced deployment and build infrastructure, improving overall system reliability."
+            ]
+        },
+        {
+            "company": "Jester Communications",
+            "position": "Software Architect",
+            "website": "",
+            "location": "Bluffton, SC (remote)",
+            "start_date": "Jun 2015",
+            "end_date": "Sep 2015",
+            "summary": "Designed mobile applications to support sales teams using JavaScript and Appcelerator Titanium. Refactored NodeJS backend for enhanced reliability and performance. Implemented scalable architecture for future growth. Optimized data synchronization between mobile devices and servers.",
+            "technologies": [
+                "JavaScript",
+                "Appcelerator Titanium",
+                "Node.js"
+            ],
+            "highlights": [
+                "Built mobile apps to support sales teams.",
+                "Refactored JavaScript backend for improved reliability.",
+                "Enhanced overall system performance through optimized code structure."
+            ]
+        },
+        {
+            "company": "Crossroads Label Group",
+            "position": "Director of IT",
+            "website": "https://crossroadslabelgroup.com",
+            "location": "Asheville, NC",
+            "start_date": "Sep 2013",
+            "end_date": "May 2015",
+            "summary": "Oversaw IT operations and infrastructure management using OpenStack/Rackspace and Linux. Developed SaaS royalties’ calculation system using PHP and CodeIgniter. Designed eCommerce websites and web applications in Clojure. Utilized AWS S3 for cloud storage solutions. Managed IT budget and resources and technology decisions.",
+            "technologies": [
+                "PHP",
+                "CodeIgniter",
+                "Clojure",
+                "AWS S3",
+                "OpenStack / Rackspace"
+            ],
+            "highlights": [
+                "Rebuilt SaaS royalties calculation system.",
+                "Built eCommerce websites &amp; web app in Clojure.",
+                "Streamlined royalty calculation process, reducing processing time significantly.",
+                "Improved system scalability to accommodate business growth."
+            ]
+        },
+        {
+            "company": "DealerTrack | eCarList",
+            "position": "Senior Software Engineer",
+            "website": "",
+            "location": "Dallas, TX",
+            "start_date": "Sep 2011",
+            "end_date": "Aug 2013",
+            "summary": "Developed analytics and business intelligence systems for the automotive industry using Perl. Designed column-based reporting systems using MySQL/IBM DB2. Optimized data processing for large-scale datasets with SQL. Created user-friendly interfaces for complex data analysis using JavaScript.",
+            "technologies": [
+                "Perl",
+                "MySQL / IBM DB2",
+                "JavaScript"
+            ],
+            "highlights": [
+                "Built analytics/business intelligence system that helped car dealers choose profitable inventory.",
+                "Created column-based reporting system for any aspect of dealer data.",
+                "Improved decision-making processes for clients through advanced data insights.",
+                "Enhanced system performance, allowing for faster data retrieval and analysis."
+            ]
+        },
+        {
+            "company": "Language Computer Corporation", "position": "Linguist | Knowledge Engineer", "location": "Richardson, TX",
+            "summary": "",
+            "technologies": ["Java", "Domain-Specific Languages", "grammar formalisms", "syntax", "morphology"],
+            "highlights": []
+        },
+        {
+            "company": "Dallas International University", "position": "Research Assistant", "location": "Dallas, TX",
+            "summary": "",
+            "technologies": ["Java", "Python", "Natural Language Processing", "Machine Learning"],
+            "highlights": []
+        },
+        {
+            "company": "RP Solutions Inc.", "position": "Programmer | Software Engineer", "location": "Ithaca, NY",
+            "summary": "",
+            "technologies": ["Java", "Jasper Reports", "Oracle", "Microsoft SQL Server", "XSLT / XML"],
+            "highlights": []
+        },
+        {
+            "company": "Cornell University", "position": "Programmer", "location": "Ithaca, NY",
+            "summary": "",
+            "technologies": ["Perl", "Linux", "MySQL", "PHP", "JavaScript", "HTML", "CSS", "CFengine"],
+            "highlights": []
         }
     ],
-    "awards": {},
+    "awards": {"Phi Theta Kappa (ΦΘΚ)"},
     "languages": {
         "English": "Native",
         "Spanish": "Limited Working",
