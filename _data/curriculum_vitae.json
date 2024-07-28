@@ -323,5 +323,34 @@
         "Spanish": "Limited Working",
         "French": "Limited Working"
     },
-    "interests": [ "Djembe Drumming", "Cycling", "Hiking" ]
+    "interests": [ "Djembe Drumming", "Cycling", "Hiking" ],
+    "recommendations": [
+        {
+            "author": "Mazedur Rahman",
+            "author_link": "https://www.linkedin.com/in/mazedur-rahman",
+            "position": "Director of Software Engineering",
+            "company": "Airbus UTM at Acubed by Airbus",
+            "relationship": "Manager",
+            "text": "Sven is a solid Python developer with a big emphasis on Data Engineering. He led implementation of our data pipeline that ingested airspace awareness data from various public sources (such as the FAA in the US, GSI in Japan, Airservices in Australia, etc.) and proprietary sources (such as SportsDataIO, Leidos, etc.), transformed the un/structured data using various technologies around geospatial ecosystem, and finally serve them using Postgres and PostGIS for drone pilot-facing microservices. He made our data pipeline lean and cost effective leveraging building blocks such as Docker, CircleCI, Google Cloud Storage and CDN. He also implemented our Maps service initially using Python Django, then modernized it using FastAPI framework.",
+            "date": "Mar 7, 2024"
+        },
+        {
+            "author": "Aaron Iverson",
+            "author_link": "https://www.linkedin.com/in/aaroniverson",
+            "position": "Co-founder",
+            "company": "Ra Power Management",
+            "relationship": "Managed indirectly",
+            "text": "Sven was both a pleasure to work with and someone who was able to quickly adapt to a new environment and a challenging development schedule. His work was high quality and he meshed well with our already established Dev team. He was a valuable asset to our team and any team he is a part of.",
+            "date": "Aug 7, 2016"
+        },
+        {
+            "author": "Lindsy Mueller",
+            "author_link": "https://www.linkedin.com/in/lindsymueller",
+            "position": "Project Manager",
+            "company": "Jester Communications",
+            "relationship": "Manager",
+            "text": "I had the pleasure of working with Sven as a part of the development team during my tenure at Jester Communications. His attention to detail was focused and well thought-out for the back-end projects related to app design and database integration. Sven's drive to do the right thing and get to the root of a software issue was welcoming. I appreciated Sven's honesty when it came to the complexity of software bugs, and his determination to provide a permanent solution versus a quick fix. Sven will be a great asset to any team looking to enhance their back-end/database application team and/or iOS development team.",
+            "date": "Oct 7, 2015"
+        }
+    ]
 }
