@@ -206,14 +206,20 @@
 					    
 				    </div>
 					<div class="col-lg-12">
-					<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Recommendations</h2>
+					  <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Recommendations</h2>
 					  <div id="carouselContainer" class="carousel slide" data-bs-ride="carousel">
 						<ol class="carousel-indicators">
-						  <li data-bs-target="#carouselContainer" data-bs-slide-to="0" class="active"></li>
-						  <li data-bs-target="#carouselContainer" data-bs-slide-to="1"></li>
-						  <li data-bs-target="#carouselContainer" data-bs-slide-to="2"></li>
+						{% for rec_num in (1..site.data.curriculum_vitae.recommendations.size) %}
+						  {% if forloop.first %}
+						  	{% assign active = 'active' %}
+						  {% else %}
+						  	{% assign active = '' %}
+						  {% endif %}
+						  {% asign rec_num = rec_num | minus: 1 %}
+						  <li data-bs-target="#carouselContainer" data-bs-slide-to="{{ rec_num }}" class="{{ active }}"></li>
+						  {% endfor %}
 						</ol>
-					<div class="container">
+					  <div class="container">
 						<div class="carousel-inner">
 						  {% for recommendation in site.data.curriculum_vitae.recommendations %}
 						  {% if forloop.first %}
@@ -223,15 +229,16 @@
 						  {% endif %}
 						  <div class="carousel-item text-center p-4 {{ active }}">
 							<blockquote class="blockquote">
-								<i class="fa fa-quote-left fa-3x fa-pull-left fa-border" aria-hidden="true"></i>
+								<i class="fa fa-quote-left fa-2x fa-pull-left fa-border" aria-hidden="true"></i>
 							 	<p class="mb-0">{{ recommendation.text }}</p>
-								<p></p>
-								<footer class="blockquote-footer"><span class="fw-bold">{{ recommendation.author }}</span>, {{ recommendation.position }} at <cite title="Source Title">{{ recommendation.company }}</cite></footer>
+								<p>&nbsp;</p>
+								{% capture recommender %}<a href="{{ recommendation.author_link }}">{{ recommendation.author }}</a>{% endcapture %}
+								<footer class="blockquote-footer"><span class="fw-bold">{{ recommender }}</span>, {{ recommendation.position }} @ <cite title="Source Title">{{ recommendation.company }}</cite></footer>
 							  </blockquote>
 						  </div>
 						  {% endfor %}
 						</div>
-					</div>
+					  </div>
 						<a class="carousel-control-prev" href="#carouselContainer" role="button" data-bs-slide="prev">
 						  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 						  <span class="sr-only">Previous</span>
@@ -240,8 +247,9 @@
 						  <span class="carousel-control-next-icon" aria-hidden="true"></span>
 						  <span class="sr-only">Next</span>
 						</a>
-					  </div>
-					</div>	
+					  </div><!--//carousel-->
+					</div><!--//col-lg-12-->
+			    </div><!--//row-->
 						
 		    </div><!--//resume-body-->
 		    
