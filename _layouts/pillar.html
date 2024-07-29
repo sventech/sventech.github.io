@@ -211,21 +211,21 @@
 						<ol class="carousel-indicators">
 						{% for rec_num in (1..site.data.curriculum_vitae.recommendations.size) %}
 						  {% if forloop.first %}
-						  	{% assign active = 'active' %}
+						  	{% assign active = "active" %}
 						  {% else %}
-						  	{% assign active = '' %}
+						  	{% assign active = "" %}
 						  {% endif %}
-						  {% asign rec_num = rec_num | minus: 1 %}
-						  <li data-bs-target="#carouselContainer" data-bs-slide-to="{{ rec_num }}" class="{{ active }}"></li>
+						  {% assign slide_num = rec_num minus: 1 %}
+						  <li data-bs-target="#carouselContainer" data-bs-slide-to="{{ slide_num }}" class="{{ active }}"></li>
 						  {% endfor %}
 						</ol>
 					  <div class="container">
 						<div class="carousel-inner">
 						  {% for recommendation in site.data.curriculum_vitae.recommendations %}
 						  {% if forloop.first %}
-						  	{% assign active = 'active' %}
+						  	{% assign active = "active" %}
 						  {% else %}
-						  	{% assign active = '' %}
+						  	{% assign active = "" %}
 						  {% endif %}
 						  <div class="carousel-item text-center p-4 {{ active }}">
 							<blockquote class="blockquote">

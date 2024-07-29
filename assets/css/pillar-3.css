@@ -11772,10 +11772,12 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   font-size: 2.25rem;
   letter-spacing: 0.175rem;
   font-weight: 900;
+  text-shadow: 2px 2px #3582C4;
 }
 
 .resume-header .title {
   font-size: 1.5rem;
+  text-shadow: 1px 1px #000000;
 }
 
 .resume-header a {
