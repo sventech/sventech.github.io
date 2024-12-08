@@ -39,7 +39,7 @@
             "Oracle / IBM DB2": "65%",
             "MongoDB / Redis": "55%",
             "Microsoft SQL Server": "75%",
-            "Elasticsearch": "65%",
+            "ElasticSearch": "60%",
             "DynamoDB": "75%"
         },
         "DevOps &amp; Cloud Services": {
@@ -60,6 +60,7 @@
             "Ruby on Rails": "65%"
         },
         "Data Management &amp; Visualization": [
+            "Dagster",
             "Jupyter Notebooks",
             "Pandas / NumPy",
             "Matplotlib / Seaborn",
@@ -113,6 +114,30 @@
         }
     ],
     "experience": [
+        {
+            "company": "Danti",
+            "position": "Senior Software Engineer - Data Engineering",
+            "website": "https://danti.ai",
+            "location": "REMOTE",
+            "start_date": "Aug 2024",
+            "end_date": "Present",
+            "summary": "Developed data engineering solutions for AI/ML using Python and JavaScript. Architected scalable data pipelines for high-volume data processing. Optimized cloud-based infrastructure on AWS for improved performance and reliability. Collaborated with cross-functional teams to define software solutions. Wrote DevOps platform code using Kubernetes and cloud services.",
+            "technologies": [
+                "Python / Dagster",
+                "JavaScript / TypeScript",
+                "ElasticSearch",
+                "AWS CDK",
+                "Kubernetes",
+                "Docker",
+                "Pandas / NumPy",
+                "Rust"
+            ],
+            "highlights": [
+                "Ensured high reliability under load for data processing microservices.",
+                "Optimized config-driven ETL pipeline using cloud services.",
+                "Reduced system downtime through implementation of robust error handling and recovery mechanisms."
+            ]
+        },
         {
             "company": "Airbus UTM",
             "position": "Senior Software Engineer",
