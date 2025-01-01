@@ -123,13 +123,14 @@
             "end_date": "Present",
             "summary": "Developed data engineering solutions for AI/ML using Python and JavaScript. Architected scalable data pipelines for high-volume data processing. Optimized cloud-based infrastructure on AWS for improved performance and reliability. Collaborated with cross-functional teams to define software solutions. Wrote DevOps platform code using Kubernetes and cloud services.",
             "technologies": [
-                "Python / Dagster",
+                "Dagster",
+                "Kubernetes",
+                "Pandas / NumPy",
                 "JavaScript / TypeScript",
                 "ElasticSearch",
                 "AWS CDK",
-                "Kubernetes",
+                "Python",
                 "Docker",
-                "Pandas / NumPy",
                 "Rust"
             ],
             "highlights": [
